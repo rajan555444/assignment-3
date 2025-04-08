@@ -5,6 +5,12 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+body {
+    background-color: #F1EFEC;
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -39,9 +45,6 @@ nav a:hover {
     color: #ddd;
 }
 
-main {
-    background-color: #F1EFEC;
-}
 
 main .hero {
     text-align: center;
@@ -171,7 +174,8 @@ main .contact-section .contact-form .reset:hover {
 
 }
 
-button[type=submit] {
+main .contact-section .contact-form .submit {
+
     background-color: #123458;
     color: whitesmoke;
 }
